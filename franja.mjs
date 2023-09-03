@@ -9,7 +9,7 @@ export class Franja{
 	}
 
 	isFranja(angulo){
-		if(angulo > this.anguloMinimo && angulo < this.anguloMaximo){
+		if(angulo >= this.anguloMinimo && angulo <= this.anguloMaximo){
 			return true
 		}else{
 			return false
