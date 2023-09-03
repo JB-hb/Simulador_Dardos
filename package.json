@@ -1,0 +1,15 @@
+{
+  "name": "simulaciondardos",
+  "version": "1.0.0",
+  "description": "Aplicacion de terminal que simula el lanzamiento de 100 dardos y muestra la probabilidad de sacar x puntos y mas",
+  "main": "index.mjs",
+  "type":"module",
+  "scripts": {
+    "start": "nodemon index.mjs"
+  },
+  "author": "Jose Bastidas",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
