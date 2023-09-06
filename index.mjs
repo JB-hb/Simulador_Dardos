@@ -1,7 +1,7 @@
 //Modulo que va a correr todas los modulos del programa
 
-import {Diana} from './diana.mjs'
-import {Coordenadas} from './coordenadas.mjs'
+import {Diana} from './Simulador_Dardos/src/hooks/diana.mjs'
+import {Coordenadas} from './Simulador_Dardos/src/hooks/coordenadas.mjs'
 
 const diana = new Diana()
 let puntuaciones = {}
